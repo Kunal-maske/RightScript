@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Update sidebar button styles
         sidebarButtons.forEach((btn, idx) => {
-            btn.style.background = idx < index ? "green" : idx === index ? "blue" : "white";
+            btn.style.background = idx < index ? "#90ee90" : idx === index ? "#87cefa" : "white";
             btn.style.color = idx <= index ? "white" : "black";
         });
 
